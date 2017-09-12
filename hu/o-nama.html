@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css"></style>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="menu.css"/>
+	<script type="text/JavaScript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<link rel="icon" type="image/png" href="img/logo.png">
+	<meta charset="utf-8">
+	<title>Rolunk</title>
+
+<script type="text/javascript">
+	
+$( document ).ready(function() {
+    var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+    var cl
+    cl = $(window).width() / 2 - 430
+    if (isSafari) $("#content-box").css("left", cl + "px");
+    cl = $(window).width() / 2 + 210
+    if (isSafari) $("#side-box").css("left", cl + "px");
+    if (isSafari) $("#quiz-box").css("left", cl + "px");
+});
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44506862-2', 'filiparag.com');
+  ga('send', 'pageview');
+
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=126884227511141";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</head>
+<body style="background: url('img/background1.jpg') no-repeat center center fixed; -moz-background-size: cover; -webkit-background-size: cover; -o-background-size: cover; background-size: cover;">
+
+<div id="flags">
+		
+	<a href="https://filiparag.github.io/zd/"><img src="./img/flag-rs.png" title="Srpski"></a>
+	<a href="https://filiparag.github.io/zd/hu/"><img src="./img/flag-hu.png" title="Magyar"></a>
+	<!--<a href="https://filiparag.github.io/zd/en/"><img src="./img/flag-us.png" title="English"></a>-->
+
+</div>
+
+<div id="head-menu">
+	
+<img src="img/logo.png" id="logo-pic"/>
+
+	<div id="menu">
+		<ul id="main-menu">
+			<li><a href="index.html">Otthon</a></li>
+			<li><a href="bezbednost.html">Biztonság</a><!--
+			<ul>
+			<br>
+				<div class="arrow-up"></div>
+				<div id="mmul" style="width: 250px;">
+					<li><a href="pravni-sistem.html" style="color: #000;">A jogrendszer</a></li>
+				</div>
+			</ul>-->
+			</li>
+			<li><a href="zloupotreba.html">Visszaélés</a><!--
+			<ul>
+			<br>
+				<div class="arrow-up"></div>
+				<div id="mmul">
+				<li><a href="nacini-zloupotrebe.html" style="color: #000;">Módszerek visszaélés</a></li>
+				<li><a href="oblici-zloupotrebe.html" style="color: #000;">A leggyakoribb formája a visszaélés</a></li>
+				</div>
+			</ul>-->
+			</li>
+			<li><a href="za-decu.html">Gyerekeknek</a><!--
+			<ul>
+			<br>
+				<div class="arrow-up"></div>
+				<div id="mmul" style="width: 250px;">
+				<li><a href="pravila-za-decu.html" style="color: #000;">Szabályok gyerekek</a></li>
+				<li><a href="opasnosti-za-decu.html" style="color: #000;">Veszélyek az interneten</a></li>
+				<li><a href="zabranjeni-sajtovi.html" style="color: #000;">Tiltott és nem kívánatos oldalak</a></li>
+				<li><a href="zastita-dece-internet.html" style="color: #000;">A gyermekek védelme az interneten</a></li>
+				<li><a href="cilj-deca.html" style="color: #000;">A cél a biztonságos használatát az internet</a></li>
+				</div>
+			</ul>-->
+			</li>
+			<li><a href="za-roditelje.html">Szülőknek</a><!--
+			<ul>
+			<br>
+				<div class="arrow-up"></div>
+				<div id="mmul" style="width: 255px;">
+				<li><a href="saveti-za-roditelje.html" style="color: #000;">Tippek szülőknek</a></li>
+				<li><a href="zastita-id-i-privatnosti.html" style="color: #000;">Identitás Protection és a magánélet</a></li>
+				<li><a href="bezbednost-transakcija.html" style="color: #000;">Az elektronikus tranzakciók biztonságának</a></li>
+				</div>
+			</ul>-->
+			</li>
+			<li><a href="za-nastavnike.html">Tanároknak</a></li>
+			<li><a href="programi.html">Programok</a><!--
+			<ul>
+			<br>
+				<div class="arrow-up"></div>
+				<div id="mmul" style="width: 180px;">
+				<li><a href="programi-zastita.html" style="color: #000;">Védelem és ellenőrzés nyilvántartások</a></li>
+				</div>
+			</ul>-->
+			</li>
+			<li><a href="o-nama.html">Rolunk</a></li>
+		</ul>
+	</div>
+
+</div>
+
+<div id="vertical-of" style="height: 850px;"></div>
+
+<div id="content-box">
+
+<text style="font-size: 16pt; font-weight: bold;">Rolunk</text><br><hr>
+<b>Weboldalrol</b><br>
+Ez a weboldal kézzel készült, nem használunk semilyen adalekot amely letölthető az internetről. 
+Néhány kép készült a Photoshopban, míg másokat kölcsönvettem és javitotam.<br>
+<br>
+<b>O blogu</b><br>
+Blog a weblap másik része, szórakoztató jellegű, és a látogatókak legújabb információt 
+biztosít a bisztonságrol, az interneten lévő védelemről és hasznos tanácsokkat, diákmunkákat és oktatóanyagok tartalmaz.
+<br>Blog létrehozásához használtak <a href="http://nano.filiparag.com/" target="_blank">NANO</a> CMS.
+<br><br>
+<b>Weboldal készítő</b><br>
+Filip Parag <br>
+OŠ "Kizur Ištvan"<br>
+Szabadka<br>
+Email: <a href="mailto:gmail@filiparag.com">gmail@filiparag.com<br></a>
+Twitter: <a href="http://twitter.com/filiparag" target="_blank">@filiparag</a><br>
+<br>
+<b>Tanár</b><br>
+Zoran Vujković <br>
+<br>
+Filip Parag &copy 2014
+<br><br>
+<a href="http://zd-blog.filiparag.com/"><img src="./img/blog5.png" style="width: 580px;" title="Blog za bezbedan internet."></a>
+</div>
+
+<div id="side-box">
+
+<iframe src="sidebar1.html" id="box-news" height="300px"></iframe>
+
+</div>
+
+<div id="quiz-box">
+	
+<iframe src="sidebar2.html" id="box-news" height="235px"></iframe>
+
+</div>
+
+</body>
+
+</html>

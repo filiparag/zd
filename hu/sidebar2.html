@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ZD Novosti</title>
+	<meta charset="utf-8">
+	<script type="text/JavaScript" src="http://code.jquery.com/jquery-latest.js"></script>
+	
+<style type="text/css">
+	
+body {
+
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-align: left;
+
+}
+
+
+a {
+
+	text-decoration: none;
+	color: #d95c00;
+
+}
+
+a:hover {
+
+	text-decoration: underline;
+
+}
+
+#date {
+
+	font-size: 8pt;
+	color: #5e5e5e;
+
+}
+
+</style>
+
+</head>
+<body>
+
+<text style="font-size: 16pt; font-weight: bold;">Kérdőív</text>
+<br><hr>
+
+A legegyszerűbb módja annak hogy leellenőrizze a 
+megszerzett tudását erről a weboldalról és próbálja ki menyire is ért az internet biztonságrol. 
+Javasoljuk probálja ki a kérdőívűnket és az interaktív szimulációnkat. 
+<br>
+
+<a href="#kviz" id="kviz-a">Kérdőív</a>
+<br>
+<a href="#snalazenje" id="snalazenje-a">Szimuláció</a>
+
+<script type="text/javascript">
+	
+$( "#kviz-a" ).click(function() {
+  window.top.location.href = "strana-text-kviz.html"; 
+});
+
+$( "#snalazenje-a" ).click(function() {
+  window.top.location.href = "./snalazenje"; 
+});
+
+
+</script>
+
+</body>
+</html>

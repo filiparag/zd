@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tekst kviz</title>
+    <link rel="stylesheet" type="text/css" href="text-kviz.css"/>
+    <script type="text/JavaScript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="text-kviz.js"></script>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<div class="questionContainer radius">
+    <div class="question"><b>Pitanje 1:</b> Šta je internet?</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q1" id="q1-a" />Internet je uključivanje računara na mrežu za dopisivanje.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q1" id="q1-b" />Internet je globalni sistem međusobno povezanih računara širom sveta.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev"></div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer hide radius">
+    <div class="question"><b>Pitanje 2:</b> Zaštita dece na internetu podrazumeva:</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q2" id="q2-a" />fizičku i psihičku bezbednost maloletnih lica</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q2" id="q2-b" />psihičku i dobrovoljnu bezbednost dece</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q2" id="q2-c" />fizičku, psihičku i moralnu bezbednost maloletnih lica</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 3:</b> Kako nazivamo osobe pune emocija, razumevanja i saosećenja prema deci koje na internetu nastupaju neverovatno "iskreno"?</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q3" id="q3-a" />"Ribari"</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q3" id="q3-b" />"Lovci"</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q3" id="q3-c" />"Organizatori"</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 4:</b> Na koje sve načine "lovci" mogu zloupotrebljavati decu na internetu?</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q4" id="q4-a" />Decu na internetu mogu zloupotrebljavati pojedinci, organizacije i kriminalističke grupe anonimnim sajtovima.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q4" id="q4-b" />Decu na internetu mogu zloupotrebljavati kriminalci koji rade legalno.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q4" id="q4-c" />Decu na internetu mogu zloupotrebljavati samo pedofili koji direktno prilaze žrtvi da ostvare svoje ciljeve.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 5:</b> Trafiking je:</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q5" id="q5-a" />oblik trgovine ljudima, tj. trgovina belim robljem.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q5" id="q5-b" />oblik trgovonskih lanaca računarske opreme.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q5" id="q5-c" />kupovina polovnih računara od nepoznatih ljudi.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 6:</b> Blud je:</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q6" id="q6-a" />naziv pograma za slanje email-ova.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q6" id="q6-b" />jedan od najrasprostranjenijih oblika zloupotrebe maloletnih lica koja igraju igre na sreću.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q6" id="q6-c" />jedan od najrasprostranjenijih oblika zloupotrebe dece, zlostavljanje ili silovanje.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 7:</b> Sugestija je oblik napada sa ciljem da se dete:</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q7" id="q7-a" />navede na samopovređivanje, svesno ili nesvesno.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q7" id="q7-b" />ne navede na samopovređivanje i zaštiti od teških bolesti ili smrti.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 8:</b> Vršnjačko nasilje na internetu je:</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q8" id="q8-a" />kada se pojedinac fizički obračuna, potuče sa drugom u školi.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q8" id="q8-b" />podsticanje grupne mržnje, napadi na privatnost, uznemiravanje, vređanje i širenje nasilničkih i uvredljivih komentara.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q8" id="q8-c" />kada grupa dece hvali pojedinca kako bi ga posebno istakla zbog njegovih osobina.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 9:</b> Na internetu ne postoje programi za zaštitu dece i roditelja.</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q9" id="q9-a" />Da, tvrdnja je tačna.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q9" id="q9-b" />Ne, ova tvrdnja nije tačna.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 10:</b> Jedno od pravila, sigurnosnih mera za korišćenje interneta je da:</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q10" id="q10-a" />nepoznatoj osobi šalju poruke, fotografije i da obavezno po pozivu sa tom osobom odu na sastanak.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q10" id="q10-b" />da putem web kamere komuniciraju sa nepoznatim osobama i da je nikad ne isključuju.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q10" id="q10-c" />stvore bezbedan profil sa što dužom i komplikovanijom šifrom i da ne šalju svoje fotografije i podatke nepoznatim osobama.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 11:</b> Roditelji su obavezni da svojoj deci objasne osnovna pravila i načine korišćenja interneta, kako bi ih zaštitili od rizika uznemiravanja i zlostavljanja na internetu.</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q11" id="q11-a" />Ne, roditelji nisu u obavezi da razgovaraju sa decom o rizicima na internetu.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q11" id="q11-b" />Da, roditelji imaju obavezu da razgovaraju sa decom o pravilima i rizicima korišćenja interneta.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 12:</b> Sajber kriminalci:</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q12" id="q12-a" />ne mogu da naprave probleme u funkcionisanju vašeg računara pomoću virusa i drugog zlonamernog softvera.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q12" id="q12-b" />mogu da ukradu i potom koriste vaše naloge za slanje email-ova, dopisivanje i kupovinu.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q12" id="q12-c" />ne mogu nikako upasti na vašu bežičnu mrežu i besplatno koristiti vašu internet konekciju.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 13:</b> Ukoliko kupujete preko interneta:</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q13" id="q13-a" />veoma je važno da proverite da li u "stvarnom" svetu postoji ta firma, da uzmete broj telefona, njihovu adresu i proverite sve pojedinosti oko kupovine.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q13" id="q13-b" />nije važno da proverimo postojanje firme, jer je nemoguće da nas prevare.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q13" id="q13-c" />nisu važna jasna pravila u vezi privatnosti kupca i vraćanja robe, jer je kupovina preko interneta uvek bezbedna.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 14:</b> Zabranjeni sajtovi su:</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q14" id="q14-a" />oni na kojima priše "Sigurno, bez virusa".</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q14" id="q14-b" />oni koji sadrže uznemiravajuće poruke, rasizam ili mržnju.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q14" id="q14-c" />oni koje je policija obeležila znakom "Stop" ili ugasila.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnNext">Sledeće &gt;&gt;</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="questionContainer radius hide">
+    <div class="question"><b>Pitanje 15:</b> Pedofili su:</div>
+    <div class="answers">
+        <ul>
+            <li>
+                <label><input type="radio" name="q15" id="q15-a" />ljudi koji dobro žele deci.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q15" id="q15-b" />psihijatrijski slučajevi koji na direktan način prilaze detetu.</label>
+            </li>
+            <li>
+                <label><input type="radio" name="q15" id="q15-c" />članovi kriminalističkih grupa na internetu.</label>
+            </li>
+        </ul>
+    </div>
+    <div class="btnContainer">
+        <div class="prev">
+            <a class="btnPrev">&lt;&lt; Prethodno</a>
+        </div>
+        <div class="next">
+            <a class="btnShowResult">Kraj</a>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+<div class="txtStatusBar">Status</div>
+<div id="progressKeeper" class="radius">
+    <div id="progress"></div>
+</div>
+<div id="resultKeeper" class="radius hide"></div>
+
+</body>
+</html>

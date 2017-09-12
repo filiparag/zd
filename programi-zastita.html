@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css"></style>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="menu.css"/>
+	<script type="text/JavaScript" src="http://code.jquery.com/jquery-latest.js"></script>
+	<link rel="icon" type="image/png" href="img/logo.png">
+	<meta charset="utf-8">
+	<title>Programi za zaštitu od opasnosti i praćenje unosa</title>
+
+<script type="text/javascript">
+	
+$( document ).ready(function() {
+    var isSafari = /Safari/.test(navigator.userAgent) && /Apple Computer/.test(navigator.vendor);
+    var cl
+    cl = $(window).width() / 2 - 430
+    if (isSafari) $("#content-box").css("left", cl + "px");
+    cl = $(window).width() / 2 + 210
+    if (isSafari) $("#side-box").css("left", cl + "px");
+    if (isSafari) $("#quiz-box").css("left", cl + "px");
+});
+
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44506862-2', 'filiparag.com');
+  ga('send', 'pageview');
+
+</script>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=126884227511141";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</head>
+<body style="background: url('img/background1.jpg') no-repeat center center fixed; -moz-background-size: cover; -webkit-background-size: cover; -o-background-size: cover; background-size: cover;">
+
+<div id="flags">
+		
+	<a href="https://filiparag.github.io/zd/"><img src="./img/flag-rs.png" title="Srpski"></a>
+	<a href="https://filiparag.github.io/zd/hu/"><img src="./img/flag-hu.png" title="Magyar"></a>
+	<!--<a href="https://filiparag.github.io/zd/en/"><img src="./img/flag-us.png" title="English"></a>-->
+
+</div>
+
+<div id="head-menu">
+	
+<img src="img/logo.png" id="logo-pic"/>
+
+	<div id="menu">
+		<ul id="main-menu">
+			<li><a href="index.html">Početna</a></li>
+			<li><a href="bezbednost.html">Bezbednost</a>
+			<ul>
+			<br>
+				<div class="arrow-up"></div>
+				<div id="mmul" style="width: 250px;">
+					<li><a href="pravni-sistem.html" style="color: #000;">Pravni sistem</a></li>
+				</div>
+			</ul>
+			</li>
+			<li><a href="zloupotreba.html">Zloupotreba</a>
+			<ul>
+			<br>
+				<div class="arrow-up"></div>
+				<div id="mmul">
+				<li><a href="nacini-zloupotrebe.html" style="color: #000;">Načini zloupotrebe</a></li>
+				<li><a href="oblici-zloupotrebe.html" style="color: #000;">Najčešći oblici zloupotrebe</a></li>
+				</div>
+			</ul>
+			</li>
+			<li><a href="za-decu.html">Za decu</a>
+			<ul>
+			<br>
+				<div class="arrow-up"></div>
+				<div id="mmul" style="width: 250px;">
+				<li><a href="pravila-za-decu.html" style="color: #000;">Pravila za decu</a></li>
+				<li><a href="opasnosti-za-decu.html" style="color: #000;">Opasnosti na internetu</a></li>
+				<li><a href="zabranjeni-sajtovi.html" style="color: #000;">Zabranjeni i nepoželjni sajtovi</a></li>
+				<li><a href="zastita-dece-internet.html" style="color: #000;">Zaštita dece na internetu</a></li>
+				<li><a href="cilj-deca.html" style="color: #000;">Cilj bezbednog korišćenja interneta</a></li>
+				</div>
+			</ul>
+			</li>
+			<li><a href="za-roditelje.html">Za roditelje</a>
+			<ul>
+			<br>
+				<div class="arrow-up"></div>
+				<div id="mmul" style="width: 255px;">
+				<li><a href="saveti-za-roditelje.html" style="color: #000;">Saveti za roditelje</a></li>
+				<li><a href="zastita-id-i-privatnosti.html" style="color: #000;">Zaštita identiteta i privatnosti</a></li>
+				<li><a href="bezbednost-transakcija.html" style="color: #000;">Bezbednost elektronskih transakcija</a></li>
+				</div>
+			</ul>
+			</li>
+			<li><a href="za-nastavnike.html">Za nastavnike</a></li>
+			<li><a href="programi.html">Programi</a>
+			<ul>
+			<br>
+				<div class="arrow-up"></div>
+				<div id="mmul" style="width: 180px;">
+				<li><a href="programi-zastita.html" style="color: #000;">Zaštita i praćenje unosa</a></li>
+				</div>
+			</ul>
+			</li>
+			<li><a href="o-nama.html">O nama</a></li>
+		</ul>
+	</div>
+
+</div>
+
+<div id="vertical-of" style="height: 1350px;"></div>
+
+<div id="content-box">
+
+<text style="font-size: 16pt; font-weight: bold;">Programi za zaštitu od opasnosti i praćenje unosa</text><br><hr>
+
+Programi za zaštitu od virusa, spajvera i drugog neželjenog softvera su od velikog značaja. Svaki dan loši ljudi
+prave mnoštvo zaraza za vaš kompjuter, koje mogu da ozbiljno oštete računar.
+<br><br>
+<b>Programi za Windows</b><br>
+OS Windows je jedna od najpopularnijih desktop platformi. Takođe je i jedna od najpogodnijih za viruse.
+Postoje mnogi lažni programi koji "ubrzavaju" računar, ali su oni ustvari i najveći problemi. <br><br>
+Antivirus:<br>
+Najbolji besplatni antivirus za Windows je <a href="http://www.avast.com" target="_blank">avast!</a>, 
+a najbolji plaćeni <a href="http://www.kaspersky.com" target="_blank">Kaspersky</a>. Ovi programi će
+osigurati da vaš računar bude otporan na skoro sve viruse, melver, spajver i mogućnost blokiranja
+neželjenih sajtova.
+<br><br>
+Programi za praćenje rada:<br>
+Ako niste sigurni šta vaše dete radi na računaru, ovi programi su jako zahvalni. Pored unosa sa tastature
+mogu pratiti i dešavanja na ekranu. <a href="http://www.refog.com" target="_blank">Refog</a> nudi program
+koji morate kupiti posle probnog perioda da bi nastavio sa radom, ali ako vam je dovoljno da vidite samo
+unose teksta možete preuzeti njihov besplatan softver.
+<br><br>
+<b>Programi za Mac OS X</b><br>
+Mac je za razliku od Windows-a otporniji na viruse, pa nema ni toliko mnogo programa protiv njih.<br><br>
+Antivirus:<br>
+Preporučujemo vam besplatni program iz Nortona, <a href="http://www.iantivirus.com" target="_blank">iAntivirus</a>,
+ali i plaćeni program <a href="http://www.kaspersky.com" target="_blank">Kaspersky za Mac</a>.<br><br>
+Programi za praćenje rada:<br>
+Kao i za Windows, <a href="http://www.refog.com/" target="_blank">Refog</a> je napravio program za praćenje
+unosa i za Mac. Ako vam se svidi program na besplatnoj probi, preporučujemo da ga kupite.
+<br><br>
+<b>Programi za GNU/Linux</b><br>
+Linux je možda na prvi pogled težak i nepopularan, ali to nije istina. Na ovoj platformi vam neće trebati
+antivirus softver jer ne postoje virusi ni malver.<br><br>
+Programi za praćenje rada:<br>
+Postoji mnostvo programa za praćenje rada i unosa kao i na drugim platformama, ali <a href="https://code.google.com/p/logkeys/" target="_blank">logkeys</a>
+je trenutno najbolji.
+<br><br>
+<b>Programi za Android i iOS</b><br>
+Iako ove dve platforme izgledaju otporne na viruse, skoro na svakom telefonu/tabletu postoji neki vid 
+neželjenog softvera. Najčešće su to spajver i adver ali postoje i mnogi virusi. Aplikacije sa mnogo
+reklama i erpuš ("airpush") notifikacija su adver i njih treba izbegavati i brisati sa telefona. Osim
+što će vam "pojesti" bateriju, malver može da vam napravi telefonski račun i obriše podatke.<br><br>
+Antivirus:<br>
+<a href="https://play.google.com/store/apps/details?id=com.avast.android.mobilesecurity&referrer=utm_source%3Dwww.avast.com%26utm_medium%3Dlink%26utm_content%3Dfree-mobile-security%26utm_campaign%3DAMS" target="_blank">avast!</a> je besplatan Android antivirus koji ima mnogo opcija i dobru zaštitu od virusa. <a href="http://www.lookout.com" target="_blank">Lookout</a> 
+je trenutno najbolji plaćeni (i besplatni) antivirus za iOS i Android. Ima jako velik broj funkcija čak i dobru anti-lopovsku blokadu.
+<br>
+<br><a href="http://zd-blog.filiparag.com/"><img src="./img/blog3.png" style="width: 580px;" title="Blog za bezbedan internet."></a>
+</div>
+
+<div id="side-box">
+
+<iframe src="sidebar1.html" id="box-news" height="300px"></iframe>
+
+</div>
+
+<div id="quiz-box">
+	
+<iframe src="sidebar2.html" id="box-news" height="235px"></iframe>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<head>
+	<meta charset="utf-8">
+	<script type="text/JavaScript" src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+
+	<img src="" id="slide">
+	<img src="" id="slide2">
+
+</body>
+
+<script type="text/javascript">
+	
+	$(document).ready(function() {
+		var img = new Array();
+		var link = new Array();
+
+		var i = 1;
+		var e = 0;
+
+    	img[1] = "./img/slideshow/slide1.JPG";
+    	link[1] = ""
+
+    	img[2] = "./img/slideshow/slide2.JPG";
+    	link[2] = ""
+
+    	img[3] = "./img/slideshow/slide5.JPG";
+    	link[3] = ""
+
+    	img[4] = "./img/slideshow/slide6.JPG";
+    	link[4] = ""
+
+    	img[5] = "./img/slideshow/slide4.JPG";
+    	link[5] = ""
+
+        img[6] = "./img/slideshow/slide3.JPG";
+        link[6] = ""
+
+    	$("#slide").attr("src",img[1]);
+
+    	setInterval(function () {
+    		if (i < 6) {
+    			i += 1;
+    		} else {
+    			i = 1;
+    		};
+
+    		if (e < 6) {
+    			e += 1;
+    		} else {
+    			e = 1;
+    		};
+
+    		$("#slide2").attr("src",img[e]);
+    		$("#slide2").show();
+      		$("#slide").attr("src",img[i]);
+      		$("#slide2").fadeOut(800);
+      		//$("#slide2").animate({width:'toggle'},500);
+    		
+		}, 4000);
+
+	});
+
+</script>
+
+<style type="text/css">
+
+body {
+
+    margin: 0 0 0 0;
+    padding: 0;
+
+}
+
+#slide {
+
+    border-radius: 5px;
+	position: absolute;
+	width: 580px;
+	height: 435px;
+	/*display: none;*/
+
+}
+
+#slide2 {
+
+    border-radius: 5px;
+	position: absolute;
+	width: 580px;
+	height: 435px;
+	display: none;
+	z-index: 1200;
+
+}
+
+</style>
